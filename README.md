@@ -8,7 +8,7 @@ This repository provides a comprehensive benchmarking suite for the **Segment An
 
 ```
 .
-├── segment_anything/           # SAM model architecture, from Meta’s GitHub
+├── segment_anything/            # SAM model architecture, from Meta’s GitHub
 │
 ├── checkpoints/                 # Place your model checkpoints here
 │   ├── sam_vit_b_01ec64.pth
@@ -38,7 +38,7 @@ This repository provides a comprehensive benchmarking suite for the **Segment An
 ├── visualize.py                 # Offline plotting: overlays of SAM, MedSAM, GT & intersections
 └── requirements.txt             # Python dependencies
 │
-└── final_report.pdf            # Compiled paper/report (IEEE format)
+└── final_report.pdf             # Compiled paper/report (IEEE format)
 ```
 
 ---
