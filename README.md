@@ -22,14 +22,23 @@ This repository provides a comprehensive benchmarking suite for the **Segment An
 │   └── …                        # Other tasks up to Task10_Colon
 │
 ├── results/                     # Benchmark outputs (CSVs with metrics, logs)
-│   ├── Task02_Heart_Labels1_Bbox0_Results.csv
-│   └── …
+│
+├── final_results/               # Post-processed summary results
+│
+├── figures_and_plots/           # All figures used in the report
+│   ├── dsc_vs_bbox.png
+│   ├── nsd_vs_bbox.png
+│   ├── taskwise_dsc_bar.png
+│   ├── heatmap_dsc_diff.png
+│   └── example_brain_tumour.png
 │
 ├── app.py                       # Streamlit UI: upload an image, draw a box, run SAM/MedSAM
 ├── benchmark.py                 # Core CLI: run SAM & MedSAM on all slices of a task
 ├── batch_benchmarks.py          # Loop over multiple tasks & box sizes via subprocess
 ├── visualize.py                 # Offline plotting: overlays of SAM, MedSAM, GT & intersections
 └── requirements.txt             # Python dependencies
+│
+└── final_report.pdf            # Compiled paper/report (IEEE format)
 ```
 
 ---
