@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv*/
+venv/
+
+# Dataset
+msd/*
+!msd/.gitkeep
+
+# Checkpoints
+checkpoints/*
+!checkpoints/.gitkeep
+
+# System files
+.DS_Store

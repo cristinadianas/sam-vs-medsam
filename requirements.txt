@@ -1,0 +1,11 @@
+streamlit
+numpy
+Pillow
+torch
+segment-anything
+streamlit-image-coordinates
+nibabel
+opencv-python
+tqdm
+scipy
+matplotlib
