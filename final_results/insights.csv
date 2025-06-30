@@ -1,0 +1,7 @@
+Insight,task,bbox,modality,dice_sam,dice_medsam,nsd_sam,nsd_medsam
+Best Dice SAM,Task09_Spleen,0,CT,0.9030206470028544,,,
+Best Dice MedSAM,Task09_Spleen,5,CT,,0.873502093244529,,
+Worst Dice SAM,Task04_Hippocampus,20,MRI,0.1765599849284099,,,
+Worst Dice MedSAM,Task08_HepaticVessel,0,CT,,0.2148166794419745,,
+Highest NSD Gain (MedSAM - SAM),Task04_Hippocampus,15,MRI,,,0.0548878673700075,0.2367900527505651
+Highest NSD Loss (MedSAM - SAM),Task06_Lung,0,CT,,,0.619949004224502,0.2398769462884731
